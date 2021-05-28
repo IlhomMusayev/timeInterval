@@ -10,6 +10,7 @@ const minutElemetn = document.querySelector('.minut')
 const secundElemetn = document.querySelector('.secund')
 
 btnElement.addEventListener('click', event => {
+    btnElement.disabled = true
     let sucund = secunInputdElemetn
     let hour = hourInputElemetn.value
     let minut = minutInputElemetn.value
