@@ -1,0 +1,46 @@
+.timer-modal{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 25vh;
+    background-color: #999;
+    padding: 10px;
+}
+.timer-modal button,input{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+.timer-modal input{
+    padding: 10px;
+}
+.timer-modal button{
+    width: 100%;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content h3{
+    cursor: pointer;
+    font-size: 100px;
+    padding: 0 30px;
+}
+.content h3:hover {
+    color:blue;
+}
+.btn{
+    cursor: pointer;
+    padding: 40px 30px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    background-color: blue;
+    font-size: 20px;
+}
